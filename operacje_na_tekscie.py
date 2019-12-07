@@ -1,14 +1,14 @@
-def capitalize(param):
-    return param.capitalize()
+def capitalize(txt):
+    return txt.capitalize()
 
-def lower(param):
-    return param.islower()
+def lower(txt):
+    return txt.lower()
 
-def count (param, param1):
-    return param.count(param1)
+def casefold(txt):
+    return str(txt).casefold()
 
-def find(param, param1):
-    return param.find(param1)
+def upper(txt):
+    return txt.upper()
 
-def isdigit(param):
-    return param.isdigit()
+def title(txt):
+    return txt.title()
